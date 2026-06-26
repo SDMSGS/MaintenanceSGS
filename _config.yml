@@ -1,0 +1,31 @@
+title: Services de Maintenance SGS
+description: Construction, rénovations, déneigement et tonte de pelouse au Québec.
+url: ""
+baseurl: ""
+lang: fr-CA
+
+company:
+  name: Services de Maintenance SGS
+  phone: "819-550-0413"
+  email: "info@MaintenanceSGS.ca"
+  location: "Val-d'Or, QC"
+  founded: "2017"
+  emergency: "Service d'urgence 24/7"
+
+collections:
+  services:
+    output: true
+    permalink: /services/:name/
+
+markdown: kramdown
+plugins: []
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "page"

@@ -1,0 +1,55 @@
+<section class="cta-band">
+  <br>
+  <div class="container cta-inner">
+    <div class="cta-copy">
+      <span class="chat-dot">●</span>
+      <div>
+        <strong>Prêt à démarrer votre projet ?</strong>
+        <br>
+        <span>Contactez-nous dès aujourd’hui pour une soumission gratuite.</span>
+      </div>
+    </div>
+    <a class="btn" href="{{ '/contact/' | relative_url }}">Obtenir une soumission <span>→</span>
+    </a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="{{ '/' | relative_url }}">
+        <!--<span class="brand-mark">SGS</span>-->
+        <span class="brand-text">
+          <small>Services de</small>
+          <strong>Maintenance SGS</strong>
+        </span>
+      </a>
+      <p>Des solutions complètes pour votre propriété, en toute saison.</p>
+      <div class="socials">
+        <a href="https://www.facebook.com/p/Services-de-maintenance-SGS-100059757927221/">
+          <span><img src="{{ '/assets/images/Facebook_Logo_Primary.png' | relative_url }}"/></span>
+        </a>
+        <!--<span>◎</span>-->
+        <!--<span>in</span>-->
+      </div>
+      <br>
+    </div>
+    <div>
+      <h4>Liens rapides</h4>
+      <a href="{{ '/' | relative_url }}">Accueil</a>
+      <a href="{{ '/contact/' | relative_url }}">Nous contacter</a>
+    </div>
+    <div>
+      <h4>Qui sommes-nous?</h4>
+      <a href="{{ '/a-propos/' | relative_url }}">À propos</a>
+      <a href="{{ '/services/' | relative_url }}">Services</a>
+      <a href="{{ '/realisations/' | relative_url }}">Réalisations</a>
+    </div>
+    <div>
+      <h4>Nos coordonnées</h4>
+      <p>☎ {{ site.company.phone }}</p>
+      <p>✉ {{ site.company.email }}</p>
+      <p>⌖ {{ site.company.location }}</p>
+    </div>
+  </div>
+  <div class="container copyright">© {{ 'now' | date: '%Y' }} {{ site.company.name }}. Tous droits réservés.</div>
+</footer>

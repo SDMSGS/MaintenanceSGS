@@ -80,7 +80,7 @@ permalink: /
     <div class="about-img" aria-hidden="true"></div>
     <div class="about-copy">
       <h2><span>Une entreprise</span>Au service de notre communauté</h2>
-      <p>Depuis plus de 99 ans, Services de Maintenance SGS accompagne les propriétaires du Québec avec des services de qualité, une équipe passionnée et une approche humaine.</p>
+      <p>Depuis plus de 9 ans, Services de Maintenance SGS accompagne les propriétaires du Québec avec des services de qualité, une équipe passionnée et une approche humaine.</p>
       <div class="feature-row">
         <div class="feature"><b>✔️</b><span>9+ ans d’expérience</span></div>
         <div class="feature"><b>✔️</b><span>Travail soigné et durable</span></div>
